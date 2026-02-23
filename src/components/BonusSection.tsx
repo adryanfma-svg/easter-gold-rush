@@ -20,7 +20,7 @@ const bonuses = [
     badge: 'BÔNUS SECRETO',
     emoji: '🤖',
     title: 'Robô de Copy de Páscoa',
-    lines: ['Prompts prontos para: descrição de produto, post de venda,', 'mensagens de fechamento, oferta relâmpago'],
+    lines: ['Prompts prontos para: descrição de produto, post de venda,', 'mensagens de fechamento, oferta relâmpago', '📱 Funciona no celular e computador (sem precisar baixar nada)'],
     tag: 'IA trabalhando pra você vender mais',
   },
 ];

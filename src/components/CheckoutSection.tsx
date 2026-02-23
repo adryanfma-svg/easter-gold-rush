@@ -94,6 +94,9 @@ const CheckoutSection = () => {
             🍫 GARANTIR MEU ESTÚDIO DE LUXO — R$ 27{' '}
             <span className="inline-block transition-transform group-hover:translate-x-2">→</span>
           </a>
+          <p className="text-cream/70 font-body text-xs mt-2">
+            📲 Acesso Imediato via E-mail e WhatsApp
+          </p>
 
           {/* Transformation phrase */}
           <p className="text-cream font-body text-xs mt-4 font-bold">

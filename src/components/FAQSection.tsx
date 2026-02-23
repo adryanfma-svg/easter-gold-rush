@@ -17,6 +17,10 @@ const faqs = [
     q: 'E se eu não gostar?',
     a: '7 dias de garantia total. Reembolso sem burocracia.',
   },
+  {
+    q: 'Não tenho impressora em casa, consigo usar?',
+    a: 'Sim! O kit é otimizado para impressão em qualquer gráfica rápida ou papelaria do seu bairro por centavos. Você também pode usar as artes digitais para vender pelo WhatsApp sem imprimir nada.',
+  },
 ];
 
 const FAQSection = () => {
