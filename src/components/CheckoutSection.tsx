@@ -1,11 +1,11 @@
 import { useCountdownTimer } from '@/hooks/useCountdownTimer';
 
 const included = [
-  'Kit Profissional de Vendas de Páscoa',
+  'Estúdio de Design de Luxo Instantâneo',
   '50+ Embalagens Premium Editáveis',
-  'Scripts + Catálogo + Estratégias',
+  'Scripts + Catálogo + Blueprint de Vendas',
   'Bônus: Receita Express de Alta Margem',
-  'Bônus: Aula de Montagem e Apresentação',
+  'Bônus: Blueprint de Montagem Profissional',
   'Bônus: Robô de Copy de Páscoa',
   'Acesso imediato + Suporte 7 dias',
 ];
@@ -91,12 +91,17 @@ const CheckoutSection = () => {
             href="#checkout"
             className="inline-block bg-fire hover:bg-fire-hover text-accent-foreground font-impact text-2xl md:text-3xl px-10 py-5 rounded-lg cta-glow transition-transform hover:scale-[1.03] border border-primary/40 group w-full"
           >
-            🍫 GARANTIR MEU ACESSO AGORA — R$ 27{' '}
+            🍫 GARANTIR MEU ESTÚDIO DE LUXO — R$ 27{' '}
             <span className="inline-block transition-transform group-hover:translate-x-2">→</span>
           </a>
 
+          {/* Transformation phrase */}
+          <p className="text-cream font-body text-xs mt-4 font-bold">
+            🚀 Não perca mais tempo! Comece a transformar seus ovos em dinheiro de verdade ainda hoje!
+          </p>
+
           {/* Trust */}
-          <div className="flex flex-wrap justify-center gap-3 mt-6 text-tan text-xs font-body">
+          <div className="flex flex-wrap justify-center gap-3 mt-4 text-tan text-xs font-body">
             <span>🔒 SSL</span>
             <span>💳 Pix e Cartão</span>
             <span>📲 Acesso Imediato</span>

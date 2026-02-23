@@ -56,9 +56,12 @@ const TestimonialsSection = () => {
     >
       <div className="absolute inset-0 bg-background/[0.94]" />
       <div className="relative z-10 container max-w-5xl">
-        <h2 className="reveal font-impact text-4xl md:text-6xl text-accent-foreground text-center mb-12">
+        <h2 className="reveal font-impact text-4xl md:text-6xl text-accent-foreground text-center mb-4">
           Quem comprou está vendendo:
         </h2>
+        <p className="reveal text-tan font-body text-center text-sm mb-12 max-w-2xl mx-auto italic">
+          "Nossos designs são inspirados nas últimas tendências de embalagens gourmet da Europa, garantindo que seu produto se destaque em qualquer prateleira."
+        </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
           {testimonials.map((t, i) => (
