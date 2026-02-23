@@ -58,17 +58,21 @@ const HeroSection = () => {
         </div>
 
         {/* Headline */}
-        <h1 className="font-impact text-5xl sm:text-7xl md:text-8xl lg:text-[110px] leading-[0.95] text-accent-foreground mb-6 drop-shadow-[0_0_30px_hsl(43,72%,46%,0.3)]">
-          TRANSFORME CHOCOLATE SIMPLES
+        <h1 className="font-impact text-4xl sm:text-6xl md:text-7xl lg:text-8xl leading-[0.95] text-accent-foreground mb-4 drop-shadow-[0_0_30px_hsl(43,72%,46%,0.3)]">
+          DESBLOQUEIE A PÁSCOA
           <br />
-          EM DINHEIRO DE VERDADE
+          <span className="text-primary">MAIS LUCRATIVA</span>
+          <br />
+          DA SUA VIDA
         </h1>
 
         {/* Subheadline */}
-        <p className="font-body text-lg md:text-xl text-cream max-w-2xl mx-auto mb-8 leading-relaxed">
-          Fature na Páscoa mesmo começando do zero,
-          <br className="hidden md:block" />
-          sem ser confeiteiro e sem gastar com designer.
+        <p className="font-body text-lg md:text-xl text-cream max-w-2xl mx-auto mb-4 leading-relaxed">
+          O <strong className="text-primary">Estúdio de Design de Luxo Instantâneo</strong> que imprime dinheiro
+          e transforma seus ovos caseiros em <strong className="text-cream">joias da confeitaria</strong>.
+        </p>
+        <p className="font-body text-base md:text-lg text-tan max-w-xl mx-auto mb-8">
+          Mesmo que você comece do zero — sem ser confeiteiro, sem gastar com designer.
         </p>
 
         {/* Proof pills */}
@@ -93,7 +97,7 @@ const HeroSection = () => {
           onClick={scrollToCheckout}
           className="bg-fire hover:bg-fire-hover text-accent-foreground font-impact text-2xl md:text-3xl px-10 py-5 rounded-lg cta-glow transition-transform hover:scale-[1.03] border border-primary/40 mb-6 group"
         >
-          🍫 QUERO MEU ACESSO AGORA — R$ 27{' '}
+          🍫 QUERO MEU ESTÚDIO DE LUXO — R$ 27{' '}
           <span className="inline-block transition-transform group-hover:translate-x-2">→→</span>
         </button>
 

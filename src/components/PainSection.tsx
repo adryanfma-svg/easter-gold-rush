@@ -1,8 +1,8 @@
 const pains = [
-  { emoji: '😤', text: 'Páscoa chegando e você ainda sem plano de venda' },
-  { emoji: '😰', text: 'Medo de gastar com material e não vender nada' },
-  { emoji: '🤷', text: 'Nunca fez embalagem profissional e não sabe como' },
-  { emoji: '💸', text: 'Vende barato porque não sabe como cobrar mais caro' },
+  { emoji: '😤', text: 'Páscoa chegando e você sem uma embalagem que faça seu ovo parecer de loja' },
+  { emoji: '😰', text: 'Medo de gastar com material e não vender — porque a apresentação não convence' },
+  { emoji: '🤷', text: 'Seu cliente pega o ovo na mão e não sente diferença do concorrente' },
+  { emoji: '💸', text: 'Vende barato porque seu produto parece caseiro demais para cobrar mais caro' },
 ];
 
 const PainSection = () => {
@@ -31,7 +31,7 @@ const PainSection = () => {
         </div>
 
         <p className="reveal text-center font-display italic text-2xl md:text-4xl text-primary mb-8">
-          "Não falta talento. Falta o sistema certo."
+          "Não falta talento. Falta o Design de Prateleira certo."
         </p>
 
         <div className="text-center reveal">
@@ -39,7 +39,7 @@ const PainSection = () => {
             onClick={scrollToCheckout}
             className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground font-impact text-xl px-8 py-3 rounded-lg transition-colors group"
           >
-            QUERO O SISTEMA AGORA{' '}
+            QUERO MEU ESTÚDIO DE LUXO AGORA{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1">→</span>
           </button>
         </div>
