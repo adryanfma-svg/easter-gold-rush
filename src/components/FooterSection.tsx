@@ -16,8 +16,8 @@ const FooterSection = () => {
   return (
   <footer className="bg-[hsl(20,50%,1%)] py-10 border-t border-border/30">
     <div className="container max-w-4xl text-center">
-      {/* Live viewers */}
-      <div className="inline-flex items-center gap-2 bg-secondary/80 rounded-full px-5 py-2 border border-border text-sm font-body mb-6">
+      {/* Live viewers - floating popup */}
+      <div className="fixed bottom-4 left-4 z-50 inline-flex items-center gap-2 bg-secondary/95 backdrop-blur-sm rounded-full px-5 py-2.5 border border-border text-sm font-body shadow-lg animate-in slide-in-from-bottom-4 fade-in duration-700">
         <span className="w-2 h-2 rounded-full bg-urgency blink-red" />
         <span className="text-cream">🔥 <strong>{viewers} pessoas</strong> estão visualizando esta oferta agora</span>
       </div>
