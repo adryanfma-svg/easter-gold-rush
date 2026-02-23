@@ -100,6 +100,9 @@ const HeroSection = () => {
           🍫 QUERO MEU ESTÚDIO DE LUXO — R$ 27{' '}
           <span className="inline-block transition-transform group-hover:translate-x-2">→→</span>
         </button>
+        <p className="text-cream/70 font-body text-xs mt-2">
+          📲 Acesso Imediato via E-mail e WhatsApp
+        </p>
 
         {/* Trust badges */}
         <div className="flex flex-wrap justify-center gap-4 text-tan text-sm font-body">
