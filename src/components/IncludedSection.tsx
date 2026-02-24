@@ -22,7 +22,7 @@ const IncludedSection = () => (
         <div className="reveal lg:w-1/2 flex-shrink-0">
           <img
             src="https://images.unsplash.com/photo-1548907040-4baa42d10919?w=800&q=80"
-            alt="Estúdio de Design de Luxo Instantâneo"
+            alt="Estúdio de Montagem Profissional em Casa"
             className="rounded-2xl gold-border-strong w-full max-w-md mx-auto object-cover aspect-[4/5]"
             loading="lazy"
           />
@@ -31,7 +31,7 @@ const IncludedSection = () => (
         {/* Content */}
         <div className="lg:w-1/2">
           <h2 className="reveal font-impact text-4xl md:text-5xl text-accent-foreground mb-2">
-            Seu Estúdio de Design de Luxo Instantâneo:
+            Seu Estúdio de Montagem Profissional em Casa:
           </h2>
           <p className="reveal text-tan font-body text-sm mb-8">
             A Fábrica de Embalagens em Casa que transforma ovo caseiro em produto premium.

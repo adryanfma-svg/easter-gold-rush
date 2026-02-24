@@ -1,10 +1,10 @@
 import { useCountdownTimer } from '@/hooks/useCountdownTimer';
 
 const included = [
-  'Estúdio de Design de Luxo Instantâneo',
+  'Estúdio de Montagem Profissional em Casa',
   '50+ Embalagens Premium Editáveis',
   'Scripts + Catálogo + Blueprint de Vendas',
-  'Bônus: Receita Express de Alta Margem',
+  'Bônus: Receita Express Ovo de Colher',
   'Bônus: Blueprint de Montagem Profissional',
   'Bônus: Robô de Copy de Páscoa',
   'Acesso imediato + Suporte 7 dias',
