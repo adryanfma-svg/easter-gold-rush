@@ -68,7 +68,7 @@ const HeroSection = () => {
 
         {/* Subheadline */}
         <p className="font-body text-lg md:text-xl text-cream max-w-2xl mx-auto mb-4 leading-relaxed">
-          O <strong className="text-primary">Estúdio de Design de Luxo Instantâneo</strong> que imprime dinheiro
+          O <strong className="text-primary">Estúdio de Montagem Profissional em Casa</strong> que imprime dinheiro
           e transforma seus ovos caseiros em <strong className="text-cream">joias da confeitaria</strong>.
         </p>
         <p className="font-body text-base md:text-lg text-tan max-w-xl mx-auto mb-8">
@@ -97,7 +97,7 @@ const HeroSection = () => {
           onClick={scrollToCheckout}
           className="bg-fire hover:bg-fire-hover text-accent-foreground font-impact text-2xl md:text-3xl px-10 py-5 rounded-lg cta-glow transition-transform hover:scale-[1.03] border border-primary/40 mb-6 group"
         >
-          🍫 QUERO MEU ESTÚDIO DE LUXO — R$ 27{' '}
+          🍫 QUERO MEU KIT PÁSCOA LUCRATIVA AGORA — R$ 27{' '}
           <span className="inline-block transition-transform group-hover:translate-x-2">→→</span>
         </button>
         <p className="text-cream/70 font-body text-xs mt-2">

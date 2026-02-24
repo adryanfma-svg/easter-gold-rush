@@ -1,20 +1,26 @@
 import { useState, useEffect } from 'react';
+import testimonial1 from '@/assets/testimonial-1.jpeg';
+import testimonial2 from '@/assets/testimonial-2.jpeg';
+import testimonial3 from '@/assets/testimonial-3.jpeg';
 
 const testimonials = [
   {
     name: 'Renata O.',
     city: 'SP',
     text: 'Nunca tinha vendido nada. Comprei na sexta. Na segunda já tinha R$ 340 em pedidos confirmados no WhatsApp.',
+    avatar: testimonial1,
   },
   {
     name: 'Patricia M.',
     city: 'MG',
     text: 'As embalagens do kit parecem de loja cara. Todo mundo pergunta onde comprei. Minha margem foi de R$ 12 para R$ 31.',
+    avatar: testimonial2,
   },
   {
     name: 'Camila R.',
     city: 'PR',
     text: 'Em 3 dias de divulgação fiz R$ 890. Com o script de atendimento que veio no kit. Absurdo o quanto é simples.',
+    avatar: testimonial3,
   },
 ];
 
@@ -72,9 +78,7 @@ const TestimonialsSection = () => {
             >
               <p className="text-primary mb-3">⭐⭐⭐⭐⭐</p>
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-impact text-lg">
-                  {t.name[0]}
-                </div>
+                <img src={t.avatar} alt={t.name} className="w-10 h-10 rounded-full object-cover" />
                 <div>
                   <p className="text-cream font-body font-bold text-sm">{t.name}</p>
                   <p className="text-tan font-body text-xs">{t.city}</p>

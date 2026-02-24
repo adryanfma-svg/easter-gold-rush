@@ -91,7 +91,7 @@ const CheckoutSection = () => {
             href="#checkout"
             className="inline-block bg-fire hover:bg-fire-hover text-accent-foreground font-impact text-2xl md:text-3xl px-10 py-5 rounded-lg cta-glow transition-transform hover:scale-[1.03] border border-primary/40 group w-full"
           >
-            🍫 GARANTIR MEU ESTÚDIO DE LUXO — R$ 27{' '}
+            🍫 QUERO MEU KIT PÁSCOA LUCRATIVA AGORA — R$ 27{' '}
             <span className="inline-block transition-transform group-hover:translate-x-2">→</span>
           </a>
           <p className="text-cream/70 font-body text-xs mt-2">
