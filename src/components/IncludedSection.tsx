@@ -14,6 +14,8 @@ const comparison = [
   { item: 'Total Estimado', alone: 'R$ 650–1.100', kit: 'R$ 27' },
 ];
 
+import estudioImg from '@/assets/estudio-montagem.png';
+
 const IncludedSection = () => (
   <section className="relative bg-background py-16 md:py-24">
     <div className="container max-w-6xl">

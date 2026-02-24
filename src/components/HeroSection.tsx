@@ -1,4 +1,5 @@
 import { useCountdownTimer } from '@/hooks/useCountdownTimer';
+import heroBg from '@/assets/hero-bg.png';
 
 const Particles = () => {
   const particles = Array.from({ length: 7 }, (_, i) => ({
