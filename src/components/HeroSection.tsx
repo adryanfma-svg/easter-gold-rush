@@ -1,5 +1,7 @@
 import { useCountdownTimer } from '@/hooks/useCountdownTimer';
 import heroBg from '@/assets/hero-bg.png';
+import heroBgMobile from '@/assets/hero-bg-mobile.png';
+import { useIsMobile } from '@/hooks/use-mobile';
 
 const Particles = () => {
   const particles = Array.from({ length: 7 }, (_, i) => ({
@@ -31,6 +33,7 @@ const Particles = () => {
 
 const HeroSection = () => {
   const { hours, minutes, seconds, expired } = useCountdownTimer();
+  const isMobile = useIsMobile();
 
   const scrollToCheckout = () => {
     document.getElementById('checkout')?.scrollIntoView({ behavior: 'smooth' });
@@ -40,9 +43,9 @@ const HeroSection = () => {
     <section
       className="relative min-h-screen flex items-center justify-center overflow-hidden pt-12"
       style={{
-        backgroundImage: `url(${heroBg})`,
+        backgroundImage: `url(${isMobile ? heroBgMobile : heroBg})`,
         backgroundSize: 'cover',
-        backgroundPosition: 'center bottom',
+        backgroundPosition: 'center',
       }}
     >
       {/* Dark overlay */}
