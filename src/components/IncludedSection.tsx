@@ -25,7 +25,7 @@ const IncludedSection = () => (
           <img
             src={estudioImg}
             alt="Estúdio de Montagem Profissional em Casa"
-            className="rounded-2xl gold-border-strong w-full max-w-md mx-auto object-cover aspect-[4/5]"
+            className="rounded-2xl gold-border-strong w-full max-w-md mx-auto object-contain"
             loading="lazy"
           />
         </div>
