@@ -3,7 +3,7 @@ const bonuses = [
     num: 1,
     badge: 'BÔNUS EXCLUSIVO',
     emoji: '🥚',
-    title: 'Receita Express de Ovo Premium',
+    title: 'Receita Express Ovo de Colher',
     lines: ['Receita simples · Baixo custo · Alta margem', 'Fácil execução · Sem técnica avançada'],
     tag: 'Para você começar HOJE MESMO',
   },
