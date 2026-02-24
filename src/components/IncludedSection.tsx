@@ -23,7 +23,7 @@ const IncludedSection = () => (
         {/* Image */}
         <div className="reveal lg:w-1/2 flex-shrink-0">
           <img
-            src="https://images.unsplash.com/photo-1548907040-4baa42d10919?w=800&q=80"
+            src={estudioImg}
             alt="Estúdio de Montagem Profissional em Casa"
             className="rounded-2xl gold-border-strong w-full max-w-md mx-auto object-cover aspect-[4/5]"
             loading="lazy"

@@ -40,7 +40,7 @@ const HeroSection = () => {
     <section
       className="relative min-h-screen flex items-center justify-center overflow-hidden pt-12"
       style={{
-        backgroundImage: `url(https://images.unsplash.com/photo-1606312619070-d48b4c652a52?w=1600&q=80)`,
+        backgroundImage: `url(${heroBg})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
