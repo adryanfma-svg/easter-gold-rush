@@ -42,7 +42,7 @@ const HeroSection = () => {
       style={{
         backgroundImage: `url(${heroBg})`,
         backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        backgroundPosition: 'center bottom',
       }}
     >
       {/* Dark overlay */}
